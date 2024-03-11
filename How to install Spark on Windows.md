@@ -19,8 +19,8 @@ Add environment variable `PYSPARK_PYTHON` with lowercase `python` as its value.
 ##### Only python environments installed directly on the command line, as well as pyspark, will be rooted in ...\\Python\\scripts
 
 After the two environment variables are added, they need to be added to the path to find the executable further after finding the directory, so create a new value in the path
-`%JAVA_HOME%\\bin`
-`%SPARK_HOME%\\bin`
+`%JAVA_HOME%\bin`
+`%SPARK_HOME%\bin`
 
 The input function does not pop up the input box, which is a compatibility issue with the Jupyter notebook plug-in in vscode
 Solution 1: Use python 3.8 and install nb-conda in the conda environment.
