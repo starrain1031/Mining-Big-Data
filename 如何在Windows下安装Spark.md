@@ -19,8 +19,8 @@
 ##### 只有直接在命令行安装的python环境，以及pyspark，才会根目录才在...\\Python\\scripts
 
 两个环境变量添加完后，需要将他们加入Path中，以在找到目录后进一步找到可执行文件，因此在path中新建值
-`%JAVA_HOME%\\bin`
-`%SPARK_HOME%\\bin`
+`%JAVA_HOME%\bin`
+`%SPARK_HOME%\bin`
 
 input函数不弹出输入框是vscode中 jupyter notebook 插件的兼容问题
 解决办法1：使用python 3.8 版本，同时在conda环境中安装nb-conda。
