@@ -28,3 +28,9 @@ input函数不弹出输入框是vscode中 jupyter notebook 插件的兼容问题
 解决办法2：使用pycharm作为编辑器
 解决办法3：直接赋值，去掉该函数
 解决办法4：用Google Colab运行jupyter notebook
+
+关于调用`df.show()`时，出现错误`Py4JJavaError`:
+推测此错误是因为Spark企图调用java环境和python环境，但路径不正确。检查python环境变量是否正确配置：
+在环境变量Path中，新建以下值(python的安装路径)
+‘...\Anaconda3\Scripts’
+'...\Anaconda3'
