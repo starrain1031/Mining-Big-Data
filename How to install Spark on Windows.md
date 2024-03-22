@@ -28,3 +28,5 @@ After installation, you can select the conda environment as the kernel in the ju
 Solution 2: Use pycharm as the editor
 Solution 3: Assign a value and remove the function
 Solution 4: Use Google Colab to run jupyter notebook
+
+Regarding the error Py4JJavaError when calling df. show(): It is speculated that this error is due to Spark attempting to call the Java and Python environments, but the path is incorrect. Check if the Python environment variables are configured correctly: In the environment variable Path, create the following value (Python installation path) `...\Anaconda3 \ Scripts` `...\Anaconda3`
